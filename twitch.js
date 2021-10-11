@@ -2,7 +2,8 @@
 let olddata=undefined;
 //----------------------------------------
 const username = "c0d3_m4513r"; //Your own username
-const token = "${{TWITCH_API_TOKEN}}"; //Your twitch token, for the username above
+//The token below is without "oauth:" infront. No extra characters. This gets sent to twitch as authenticating this bot.
+const token = "TWITCH_API_TOKEN"; //Your twitch token, for the username above
 const channel = "c0d3_m4513r" //The channel, the bot should reply to commands.
 const enabled =  true
 const deleteAfterDone = false 
